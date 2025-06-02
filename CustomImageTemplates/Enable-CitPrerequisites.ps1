@@ -118,17 +118,6 @@ param (
     $Sku = 'Win11'
 
 )
-<# Define variables for parameters, this section is used for testing interactively only.
-$imageResourceGroupName = "TestCITRG"
-$subscriptionId = "a37dc7e3-884d-4c14-86f0-d409af2aaff8"
-$location = "Central US"
-$vnetRgName = "TestAVDCITVnetRG"
-$acgGalleryName = "CITGallery1"
-$acgImageDefName = "CITDefinition1"
-$Publisher = "myCo"
-$Offer = "Windows"
-$Sku = "Win11"
-#>
 
 # Set the subscription context.
 Set-AzContext -SubscriptionId $subscriptionId
